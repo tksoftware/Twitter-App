@@ -1,0 +1,13 @@
+D:\privat\code\WindowsPhone_testapp\TwitterApp\Bin\Debug\ApplicationIcon.png
+D:\privat\code\WindowsPhone_testapp\TwitterApp\Bin\Debug\Background.png
+D:\privat\code\WindowsPhone_testapp\TwitterApp\Bin\Debug\TwitterApp.dll
+D:\privat\code\WindowsPhone_testapp\TwitterApp\Bin\Debug\TwitterApp.pdb
+D:\privat\code\WindowsPhone_testapp\TwitterApp\Bin\Debug\AppManifest.xaml
+D:\privat\code\WindowsPhone_testapp\TwitterApp\Bin\Debug\TwitterApp.xap
+D:\privat\code\WindowsPhone_testapp\TwitterApp\obj\Debug\ResolveAssemblyReference.cache
+D:\privat\code\WindowsPhone_testapp\TwitterApp\obj\Debug\TwitterApp.g.resources
+D:\privat\code\WindowsPhone_testapp\TwitterApp\obj\Debug\TwitterApp.dll
+D:\privat\code\WindowsPhone_testapp\TwitterApp\obj\Debug\TwitterApp.pdb
+D:\privat\code\WindowsPhone_testapp\TwitterApp\obj\Debug\XapCacheFile.xml
+D:\privat\code\WindowsPhone_testapp\TwitterApp\obj\Debug\App.g.i.cs
+D:\privat\code\WindowsPhone_testapp\TwitterApp\obj\Debug\View\MainPage.g.i.cs

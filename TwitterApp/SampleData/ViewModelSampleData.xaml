@@ -1,0 +1,14 @@
+﻿<TwitterApp_ViewModel:ViewModel xmlns:TwitterApp_ViewModel="clr-namespace:TwitterApp.ViewModel" xmlns:TwitterApp_Model="clr-namespace:TwitterApp.Model" IsUpdating="False">
+	<TwitterApp_ViewModel:ViewModel.Tweets>
+		<TwitterApp_Model:Tweet created_at="Aliquam vestibulum" from_user="Nam maecenas sed curabitur" profile_image_url="Aenean phasellus dis" text="Class adipiscing consequat est curae"/>
+		<TwitterApp_Model:Tweet created_at="Donec hac parturient etiam convallis" from_user="Dignissim integer" profile_image_url="Leo mus fusce quisque lorem" text="Morbi praesent accumsan elementum mauris"/>
+		<TwitterApp_Model:Tweet created_at="Vestibulum cras vivamus nec non" from_user="Duis nunc vestibulum per nulla" profile_image_url="Proin bibendum" text="Facilisis dictumst eleifend facilisi nullam"/>
+		<TwitterApp_Model:Tweet created_at="Aptent sed fermentum augue faucibus" from_user="Habitant sem auctor" profile_image_url="Adipiscing fringilla amet inceptos aliquam" text="Interdum sit"/>
+		<TwitterApp_Model:Tweet created_at="Dolor habitasse parturient" from_user="Aliquet blandit fames" profile_image_url="Ante hendrerit himenaeos felis lobortis" text="Congue ipsum justo"/>
+		<TwitterApp_Model:Tweet created_at="Arcu nascetur imperdiet pharetra" from_user="Vestibulum lacus placerat" profile_image_url="Vestibulum diam lorem commodo cursus" text="Conubia eget dictum vel elit"/>
+		<TwitterApp_Model:Tweet created_at="Cubilia dapibus enim lectus" from_user="Nam pulvinar erat" profile_image_url="Sed dis magna eros" text="Est adipiscing hac nibh malesuada"/>
+		<TwitterApp_Model:Tweet created_at="Nisi sagittis" from_user="Nisl massa leo" profile_image_url="Egestas libero ligula metus senectus" text="Sociosqu mus nunc suscipit"/>
+		<TwitterApp_Model:Tweet created_at="Parturient litora torquent" from_user="Nec odio penatibus non porttitor" profile_image_url="Orci vestibulum ultrices" text="Euismod tincidunt"/>
+		<TwitterApp_Model:Tweet created_at="Vestibulum luctus tristique pede" from_user="Morbi neque vehicula magnis" profile_image_url="Feugiat netus volutpat quam" text="Adipiscing quis"/>
+	</TwitterApp_ViewModel:ViewModel.Tweets>
+</TwitterApp_ViewModel:ViewModel>
