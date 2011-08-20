@@ -1,0 +1,14 @@
+<TwitterApp_ViewModel:MainViewModel xmlns:TwitterApp_ViewModel="clr-namespace:TwitterApp.ViewModel" xmlns:TwitterApp_Model="clr-namespace:TwitterApp.Model" IsUpdating="True" LastUpdated="08/21/2011 00:58:31" Query="Maecenas aliquam curabitur aenean">
+	<TwitterApp_ViewModel:MainViewModel.Tweets>
+		<TwitterApp_Model:Tweet created_at="Integer praesent cras vestibulum phasellus" from_user="Consequat duis mauris" profile_image_url="Nullam aptent" text="Nam auctor quisque class"/>
+		<TwitterApp_Model:Tweet created_at="Curae nunc convallis congue adipiscing" from_user="Sed parturient donec" profile_image_url="Accumsan vestibulum vestibulum vivamus bibendum" text="Aliquam aliquet blandit dictumst"/>
+		<TwitterApp_Model:Tweet created_at="Dignissim dis" from_user="Est etiam hac amet leo" profile_image_url="Fusce adipiscing mus nec ante" text="Elementum cursus"/>
+		<TwitterApp_Model:Tweet created_at="Lorem non per" from_user="Morbi arcu facilisis nulla" profile_image_url="Eleifend fermentum" text="Commodo proin parturient augue"/>
+		<TwitterApp_Model:Tweet created_at="Sed diam" from_user="Sem facilisi" profile_image_url="Vestibulum vestibulum fringilla" text="Dolor fames dictum adipiscing"/>
+		<TwitterApp_Model:Tweet created_at="Felis sit" from_user="Habitasse eget vel nam" profile_image_url="Parturient elit vestibulum" text="Conubia faucibus cubilia dapibus enim"/>
+		<TwitterApp_Model:Tweet created_at="Ipsum hendrerit" from_user="Lectus sed justo egestas dis" profile_image_url="Est vestibulum hac leo" text="Himenaeos lacus erat"/>
+		<TwitterApp_Model:Tweet created_at="Lorem mus nec adipiscing euismod" from_user="Non per sed sem sit" profile_image_url="Habitant inceptos feugiat vel nam" text="Interdum libero lobortis ligula"/>
+		<TwitterApp_Model:Tweet created_at="Gravida iaculis sed magna" from_user="Eros dis parturient vestibulum nibh" profile_image_url="Nisi nascetur nisl nunc" text="Pharetra placerat imperdiet"/>
+		<TwitterApp_Model:Tweet created_at="Malesuada litora pulvinar vestibulum" from_user="Luctus est massa sagittis magnis" profile_image_url="Mattis lacinia adipiscing parturient hac" text="Odio laoreet metus morbi"/>
+	</TwitterApp_ViewModel:MainViewModel.Tweets>
+</TwitterApp_ViewModel:MainViewModel>

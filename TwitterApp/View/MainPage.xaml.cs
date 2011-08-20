@@ -1,24 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 using Microsoft.Phone.Controls;
+using TwitterApp.Services;
+using TwitterApp.ViewModel;
 
 namespace TwitterApp
 {
     public partial class MainPage : PhoneApplicationPage
     {
+
+        private MainViewModel _viewModel;
+
         // Constructor
         public MainPage()
         {
+            if (_viewModel != null)
+            {
+                _viewModel = new MainViewModel(new TwitterService());
+            }
+
+
             InitializeComponent();
+        }
+
+        private void UpdateClick(object sender, RoutedEventArgs e)
+        {
+           _viewModel.FetchData();
         }
     }
 }

@@ -42,11 +42,13 @@
 				     	
 			</ListBox>
         	<TextBlock Margin="0,0,0,62" Style="{StaticResource PhoneTextBlockBase}" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom"/>
-        	<Button Content="Update" Margin="34,0,116,0" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        	<Button Content="Update" Margin="34,0,116,0" VerticalAlignment="Bottom"  Click="UpdateClick" HorizontalAlignment="Center"/>
         	<ProgressBar Height="10" Margin="0,27,0,0" VerticalAlignment="Top" IsIndeterminate="{Binding IsUpdating}"/>
         </Grid>
     </Grid>
- 
+    
+
+
     <!--Sample code showing usage of ApplicationBar-->
     <!--<phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
