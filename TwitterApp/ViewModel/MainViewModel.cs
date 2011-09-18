@@ -14,6 +14,9 @@ namespace TwitterApp.ViewModel
         public MainViewModel(ITwitterService service)
         {
             _service = service;
+            Tweets = new ObservableCollection<Tweet>();
+            
+            
         }
 
 
@@ -21,7 +24,8 @@ namespace TwitterApp.ViewModel
 
         public String Query
         {
-            get { return "C#"; }
+            //get { return "C#"; }
+            get { return "visual studio"; }
         }
 
 
@@ -60,9 +64,11 @@ namespace TwitterApp.ViewModel
                                                                           {
                                                                               IsUpdating = false;
 
+                                                                              Tweets.Clear();
+
                                                                               foreach ( Tweet tweet in result.Value.results)
                                                                               {
-
+                                                                                  Tweets.Add(tweet);
                                                                               }
                                                                           }
                                 );

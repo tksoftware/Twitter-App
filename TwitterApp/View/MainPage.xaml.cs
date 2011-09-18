@@ -13,13 +13,15 @@ namespace TwitterApp
         // Constructor
         public MainPage()
         {
-            if (_viewModel != null)
+            InitializeComponent();
+
+            if (_viewModel == null)
             {
                 _viewModel = new MainViewModel(new TwitterService());
+                LayoutRoot.DataContext = _viewModel;
             }
 
 
-            InitializeComponent();
         }
 
         private void UpdateClick(object sender, RoutedEventArgs e)

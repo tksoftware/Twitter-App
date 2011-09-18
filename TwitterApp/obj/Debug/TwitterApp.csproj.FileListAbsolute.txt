@@ -11,3 +11,7 @@ D:\privat\code\WindowsPhone_testapp\TwitterApp\obj\Debug\TwitterApp.pdb
 D:\privat\code\WindowsPhone_testapp\TwitterApp\obj\Debug\XapCacheFile.xml
 D:\privat\code\WindowsPhone_testapp\TwitterApp\obj\Debug\App.g.i.cs
 D:\privat\code\WindowsPhone_testapp\TwitterApp\obj\Debug\View\MainPage.g.i.cs
+D:\privat\code\WindowsPhone_testapp\TwitterApp\Bin\Debug\Newtonsoft.Json.WindowsPhone.dll
+D:\privat\code\WindowsPhone_testapp\TwitterApp\Bin\Debug\RestSharp.WindowsPhone.dll
+D:\privat\code\WindowsPhone_testapp\TwitterApp\Bin\Debug\Newtonsoft.Json.WindowsPhone.pdb
+D:\privat\code\WindowsPhone_testapp\TwitterApp\Bin\Debug\Newtonsoft.Json.WindowsPhone.xml

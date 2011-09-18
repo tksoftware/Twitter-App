@@ -14,7 +14,7 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent" d:DataContext="{d:DesignData /SampleData/ViewModelSampleData.xaml}">
+    <Grid x:Name="LayoutRoot" Background="Transparent" d:DataContext="{d:DesignData /SampleData/MainViewModelSampleData.xaml}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -41,7 +41,7 @@
 			    </ListBox.ItemTemplate>
 				     	
 			</ListBox>
-        	<TextBlock Margin="0,0,0,62" Style="{StaticResource PhoneTextBlockBase}" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Bottom"/>
+        	<TextBlock Margin="10,0,0,62" Style="{StaticResource PhoneTextBlockBase}" TextWrapping="Wrap" Text="{Binding LastUpdated, Converter={StaticResource DateToString}}" VerticalAlignment="Bottom"/>
         	<Button Content="Update" Margin="34,0,116,0" VerticalAlignment="Bottom"  Click="UpdateClick" HorizontalAlignment="Center"/>
         	<ProgressBar Height="10" Margin="0,27,0,0" VerticalAlignment="Top" IsIndeterminate="{Binding IsUpdating}"/>
         </Grid>
